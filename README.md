@@ -25,7 +25,9 @@ PASSO 4 — Criar o arquivo da esteira
 Cole este código simples (nível iniciante):
 name: CI Simples
 
-# Quando executar
+name: CI Simples
+
+# Arquivo YAML
 on:
  push:
    branches: [ "main" ]
